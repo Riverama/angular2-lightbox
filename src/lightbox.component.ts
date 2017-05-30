@@ -63,14 +63,16 @@ export class LightboxComponent implements AfterViewInit, OnDestroy {
   public ui: any;
   private _cssValue: any;
   private _event: any;
+  private _windowRef:any;
+
   constructor(
     private _elemRef: ElementRef,
     private _rendererRef: Renderer,
     private _lightboxEvent: LightboxEvent,
-    public _lightboxElem: ElementRef,
-    @Inject('Window') private _windowRef: any,
+    public _lightboxElem: ElementRef,   
     @Inject(DOCUMENT) private _documentRef: any
-  ) {
+  ) {    
+    this._windowRef = window;
     // initialize data
     this.options = this.options || {};
     this.album = this.album || [];

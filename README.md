@@ -1,7 +1,10 @@
 [![Build Status](https://travis-ci.org/themyth92/angular2-lightbox.svg?branch=master)](https://travis-ci.org/themyth92/angular2-lightbox)
 
+# Description
+This fork fixes issues that allows the package to be use with server-side rendering in angular 4.
+
 # Angular2 Lightbox
-A [lighbox2](https://github.com/lokesh/lightbox2) implementation port to use with Angular2 without the need for jQuery
+A [lighbox2](https://github.com/lokesh/lightbox2) implementation port to use with Angular2 without the need for jQuery.
 
 This module works with angular 2.x and 4.x
 [demo](http://themyth92.com/project/angular2-lightbox/)

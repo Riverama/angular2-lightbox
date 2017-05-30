@@ -11,8 +11,7 @@ import { NgModule } from '@angular/core';
   providers: [
     Lightbox,
     LightboxConfig,
-    LightboxEvent,
-    { provide: 'Window', useValue: window }
+    LightboxEvent  
   ],
   entryComponents: [ LightboxOverlayComponent, LightboxComponent ]
 })
